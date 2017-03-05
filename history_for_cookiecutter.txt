@@ -1,0 +1,77 @@
+    1  python
+    2  xcode-select -p
+    3  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    4  nano ~/.bash_profile
+    5  source ~/.bash_profile
+    6  brew doctor
+    7  brew search python
+    8  python
+    9  python3
+   10  ls
+   11  cd PycharmProjects/
+   12  ls
+   13  ls 
+   14  git status
+   15  ls
+   16  apropos
+   17  ps-ax
+   18  apropos
+   19  ps-ax
+   20  ps -ax
+   21  ps -ax|grep Pyramid
+   22  kill 977
+   23  ps -ax|grep Pyramid
+   24  kill 996
+   25  kill 986
+   26  ps -ax|grep Pyramid
+   27  killall Pyramid
+   28  ps -ax
+   29  ls
+   30  cd virtualenvs/
+   31  ls
+   32  python3 -m venv pyramid_chameleon_cli
+   33  ls
+   34  cd pyramid_chameleon_cli/
+   35  ls
+   36  source bin/activate
+   37  pip install pyramid
+   38  pyramid_starter pcreate -s starter webapp
+   39  pcreate -s starter webapp
+   40  python setup.py develop
+   41  ls
+   42  cd webapp/
+   43  ls
+   44  python setup.py develop
+   45  pserve development.ini 
+   46  deactivate
+   47  ls
+   48  cd virtualenvs/
+   49  cd virtualenvs
+   50  ls 
+   51  ls
+   52  cd virtualenvs/
+   53  ls
+   54  pwd
+   55  cd ..
+   56  ls
+   57  python3 -m venv ./virtualenvs/blueyellow
+   58  cd virtualenvs/blueyellow/
+   59  ls
+   60  cd bin/
+   61  . activate
+   62  pip list
+   63  pip3 list
+   64  pip install pyramid
+   65  pcreate -l
+   66  pip install cookiecutter
+   67  pcreate -l
+   68  cookiecutter https://github.com/mikeckennedy/pyramid-cookiecutter-starter
+   69  pip install --upgrade pip setuptools
+   70  pip list
+   71  ls
+   72  pwd
+   73  ls -al
+   74  cd blue_yellow_app/
+   75  python setup.py develop
+   76  pserve development.ini 
+   77  history > history_for_cookiecutter.txt
