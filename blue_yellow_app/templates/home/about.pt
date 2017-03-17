@@ -30,12 +30,13 @@
     </div>
     <a href="/home/index">home</a>
     <a href="/home/albums">albums</a>
-    <a href="home/contact">contact</a>
-    <a href="home/about">about</a>
+    <a href="/home/contact">contact</a>
+    <a href="/home/about">about</a>
 
 
     <div class="main_content">
-        <h1>Home Page</h1>
+        <h1>About Page</h1>
+        <div>The value of the controller is ${value}</div>
         <div metal:define-slot="main_content"></div>
     </div>
 
